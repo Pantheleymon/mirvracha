@@ -1,5 +1,7 @@
 // import { ReactElement } from "react";
 
+import "./main.scss";
+
 function Main() {
     return (
         <div className="main">
