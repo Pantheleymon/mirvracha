@@ -1,0 +1,30 @@
+.modal_text {
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+
+    >p :last-child {
+        margin-top: 9px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .modal_diagram {
+        overflow-x: scroll;
+    }
+    .modal_text {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .modal_text {
+        font-size: 0.8rem;
+        word-break: break-all;
+    }
+
+    .image {
+        overflow-x: scroll;
+        max-width: 1000px;
+        max-height: 250px;
+    }
+}

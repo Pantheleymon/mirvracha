@@ -57,3 +57,86 @@
         }
     }
 }
+
+
+
+@media screen and (max-width: 1300px) {
+    .modal_life-statistics {
+        max-width: 100%;
+        max-height: 90vh;
+        overflow-y: scroll !important;
+        .modal {
+            &__text {
+                font-size: 1rem !important;
+            }
+        
+            &__header {
+                margin-top: 20px;
+                font-size: 1.2rem !important;
+            }
+        
+            &__statistics {
+                width: 100%;
+                margin-top: 20px;
+                flex-wrap: wrap;
+        
+                &_item {
+                    padding: 30px 12px;
+                    max-width: 100%;
+                    width: 100%;
+        
+                    >.percentage {
+                        font-size: 2rem !important;
+                    };
+        
+                    >.paragraph {
+                        font-size: 1.2rem !important;
+                    }
+        
+                    >.description {
+                        font-size: 0.8rem !important;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .modal_life-statistics {
+            overflow-y: scroll;
+            &__text {
+                font-size: 0.6rem;
+            }
+        
+            &__header {
+                margin-top: 20px;
+                font-size: 0.8rem;
+            }
+        
+            &__statistics {
+                width: 100%;
+                margin-top: 20px;
+                flex-wrap: wrap;
+        
+                &_item {
+                    margin-top: 5px;
+                    padding: 30px 12px;
+                    max-width: 100%;
+                    width: 100%;
+        
+                    >.percentage {
+                        font-size: 1rem;
+                    };
+        
+                    >.paragraph {
+                        font-size: 0.8rem;
+                    }
+        
+                    >.description {
+                        font-size: 0.6rem;
+                    }
+                }
+            }
+        }
+    }
+}

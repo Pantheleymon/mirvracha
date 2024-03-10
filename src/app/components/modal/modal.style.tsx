@@ -38,4 +38,8 @@ export const Content = styled.div`
   color: #01457A;
   font-family: "Noto Sans", sans-serif;
   font-size: 1.5rem;
+
+  @media screen and (max-width: 1300px){
+    width: 80vw;
+  }
 `;

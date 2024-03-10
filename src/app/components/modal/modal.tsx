@@ -1,5 +1,3 @@
-"use client";
-
 import React, { FunctionComponent } from 'react';
 import ReactDOM from 'react-dom';
 
@@ -23,14 +21,14 @@ export const Modal: FunctionComponent<ModalProps> = ({
   modalContent,
 }) => {
   const modal = (
-    <React.Fragment>
+    <>
       <Backdrop onClick={hide} />
       <Wrapper>
         <StyledModal>
           <Content>{modalContent}</Content>
         </StyledModal>
       </Wrapper>
-    </React.Fragment>
+    </>
   );
 
   return isShown ? ReactDOM.createPortal(modal, document.body) : null;

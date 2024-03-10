@@ -16,3 +16,9 @@
         background-size: contain;
     }
 }
+
+@media screen and (max-width: 1300px){
+    .content__title {
+        font-size: 1.5rem;
+    }
+}

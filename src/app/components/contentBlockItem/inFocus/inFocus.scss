@@ -107,3 +107,32 @@
         }
     }
 }
+
+@media screen and (max-width: 1300px) {
+    .note {
+        padding: 20px !important;
+    }
+    .note h3 {
+        font-size: 0.85rem !important;
+    }
+
+    .strategy {
+        word-break: break-all;
+    }
+
+    .strategy p {
+        font-size: 1rem;
+    }
+
+    .strategy__flex_arrow {
+        display: none;
+    }
+
+    .strategy__flex_item h5 {
+        font-size: 1rem !important;
+    }
+
+    .strategy__flex_item p {
+        font-size: 1rem !important;
+    }
+}
