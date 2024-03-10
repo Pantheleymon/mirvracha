@@ -5,6 +5,7 @@ import { Modal } from '../modal/modal';
 import ContentBlock from "../contentBlock/contentBlock";
 
 import "./main.scss";
+import MythsAndReality from '../contentBlockItem/mythsAndReality/mythsAndReality';
 
 function Main() {
 
@@ -14,15 +15,12 @@ function Main() {
 
     return (
         <>
-            <div className="main">
-                <ContentBlock title="ХОБЛ: мифы и реальность" content={
-                    <>Привет</>
-                }>
-                </ContentBlock>
+            <main className="main">
+                <ContentBlock title="ХОБЛ: мифы и реальность" content={<MythsAndReality/>}/>
                 <ContentBlock title="Терапия ХОБЛ: что в фокусе?" content={<></>}>
 
                 </ContentBlock>
-            </div>
+            </main>
 
             <Modal isShown={isShown} hide={toggle} modalContent={modalContent} headerText="Modal"/>
         </>
