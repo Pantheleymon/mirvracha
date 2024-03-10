@@ -16,7 +16,7 @@ export const Backdrop = styled.div`
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 500;
 `;
 
@@ -25,11 +25,13 @@ export const StyledModal = styled.div`
   background: white;
   position: relative;
   margin: auto;
-  border-radius: 8px;
+  border-radius: 20px;
+  border: 1px solid #01457A;
+  box-shadow: 0 0 35px 0 rgba(142, 160, 173, 0.35);
 `;
 
 export const Content = styled.div`
-  padding: 10px;
+  padding: 40px;
   max-height: 30rem;
   overflow-x: hidden;
   overflow-y: auto;
