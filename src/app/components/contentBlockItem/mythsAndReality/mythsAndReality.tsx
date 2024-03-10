@@ -13,7 +13,7 @@ import './mythsAndReality.scss';
 
 
 
-const MythsAndReality:FC = () => {
+const MythsAndReality:FC = (): JSX.Element => {
 
     const { isShown, toggle } = useModal();
 
