@@ -1,0 +1,109 @@
+.in-focus {
+    color: #01457A;
+    font-family: "Noto Sans", sans-serif;
+
+    .note {
+        padding: 22.5px 80.5px;
+        margin: 40px 0 0 45px;
+
+        h3 {
+            font-size: 1.75rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        background: rgb(253,217,102);
+        background: -moz-linear-gradient(90deg, rgba(253,217,102,1) 0%, rgba(185,215,126,1) 75%);
+        background: -webkit-linear-gradient(90deg, rgba(253,217,102,1) 0%, rgba(185,215,126,1) 75%);
+        background: linear-gradient(90deg, rgba(253,217,102,1) 0%, rgba(185,215,126,1) 75%);
+        
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .strategy {
+        margin: 40px 0 0 45px;
+
+        p {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .no-margin {
+            margin: 0;
+        }
+
+        &__flex {
+            margin-top: 50px;
+
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            column-gap: 30px;
+            row-gap: 30px;
+            flex-wrap: wrap;
+
+            &_item {
+                width: 410px;
+                padding: 30px 19px;
+
+                text-align: center;
+
+                background: rgb(251,253,255);
+                background: -moz-linear-gradient(90deg, rgba(251,253,255,1) 0%, rgba(216,239,255,1) 100%);
+                background: -webkit-linear-gradient(90deg, rgba(251,253,255,1) 0%, rgba(216,239,255,1) 100%);
+                background: linear-gradient(90deg, rgba(251,253,255,1) 0%, rgba(216,239,255,1) 100%);
+
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+
+                box-shadow: 0 0 35px 0 rgba(142, 160, 173, 0.35);
+
+                h5 {
+                    font-size: 1.75rem;
+                    margin-top: 15px;
+                }
+
+                p {
+                    margin-top: 15px;
+                    font-size: 1.5rem;
+                }
+            }
+
+            .result {
+                padding: 30px 40px;
+                width: 630px;
+
+                p {
+                    text-align: left;
+                }
+            }
+
+            &_arrow {
+                width: 424px;
+                height: 33px;
+                border-left: 2px solid #01457A;
+                border-right: 2px solid #01457A;
+                border-bottom: 2px solid #01457A;
+
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 100%;
+                    left: calc(50% - 15px);
+
+                    border: 15px solid transparent;
+                    border-top: 20px solid #01457A;
+                }
+            }
+        }
+    }
+}
