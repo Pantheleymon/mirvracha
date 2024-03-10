@@ -18,6 +18,7 @@ export const Backdrop = styled.div`
   left: 0;
   background: rgba(0, 0, 0, 0.5);
   z-index: 500;
+  overflow: hidden;
 `;
 
 export const StyledModal = styled.div`
@@ -32,7 +33,9 @@ export const StyledModal = styled.div`
 
 export const Content = styled.div`
   padding: 40px;
-  max-height: 30rem;
   overflow-x: hidden;
   overflow-y: auto;
+  color: #01457A;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5rem;
 `;

@@ -1,0 +1,59 @@
+.modal {
+    &__text {
+        font-size: 1.5rem;
+        
+        >p:last-child {
+            margin-top: 9px;
+        }
+    }
+
+    &__header {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 1.875rem;
+    }
+
+    &__statistics {
+        width: 1210px;
+        margin-top: 40px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+
+        &_item {
+            padding: 30px 12px;
+            max-width: 367px;
+
+            text-align: center;
+
+            background-color: rgba(253, 217, 102, 0.35);
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+
+            >.percentage {
+                font-size: 6rem;
+                font-weight: bold;
+
+                margin-top: 15px;
+            };
+
+            >.paragraph {
+                font-size: 1.625rem;
+
+                margin-top: 15px;
+            }
+
+            >.description {
+                font-size: 1.125rem;
+
+                margin-top: 15px;
+
+                font-weight: light;
+            }
+        }
+    }
+}
